@@ -1,0 +1,28 @@
+-prompt] "Text: "
+    -get input using get_string()
+
+-count # of letters/ words/ sentences/
+    -letters:
+        -A ~ Z && a ~ z
+        -NO punctuations/ digits/ any other symbols
+    -words:
+        -sequence of characters separated by spaces
+        -hypenated word should be counted as 1 word
+    -sentences:
+        -end with .(period)/ !(exclation point)/ ?(question mark)
+        -count as 1 sentence if period is using in the middle of sentence i.e. Mr./ Mrs/ 
+-compute Coleman-Liau index
+    -compute index using formula
+        -be careful with truncation when divide integer with intger -> cast with (float) in one of the integer
+        -L = (# of letters) / (# of words) * 100
+        -S = (# of sentences) / (# of words) * 100
+        -index = 0.0588 * L - 0.296 * S - 15.8
+ -calculate and print grade
+    -convert index to grade 
+        -round to the nearest integer
+            -using math.h round()
+    -print "Grade #" (# is Coleman-Liau index)
+        -if(index >= 16) print "Grade 16+"
+        -if(index < 1) print "Before Grade 1"
+
+

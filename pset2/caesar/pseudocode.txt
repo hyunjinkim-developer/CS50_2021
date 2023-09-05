@@ -1,0 +1,18 @@
+-program must accept proper command-line argument
+    -command-line argument should be only one
+        -argc == 2
+        -if program is excuted without any command-line argument or with more than one command-line argument 
+            -print ERROR message "Usage: ./caesar key\n"
+            -return a value of 1 from main function
+    -argv[1] should be k(key) should be non-negative integer
+        -don't have to think about overflow
+        -if k is not a non-negative integaer
+            -return a value of 1 from main function
+            -print ERROR message "Usage: ./caesar key\n"
+-use function get_string() in <cs50.h>
+-rotate plaintext by k position
+    -c = (p + k) % 26 (c: ciphertext/ p: plaintext/ k:key)
+    -non-alphabetical characters should be unchanged
+    -preserve case
+        -capitalized letters should be capitalized, lowercase letters should be lowercase after it is changed
+-print ciphertext "ciphertext: (ciphertext)\n"

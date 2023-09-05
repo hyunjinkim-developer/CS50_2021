@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: When tested with sorted input, sort1 is faster than sort 3. It implies that sort 1 is bubble sort.
+
+sort2 uses: merge sort
+
+How do you know?: Sort2 is much faster than the other two sorts.
+
+sort3 uses: selection sort
+
+How do you know?: When sorting a sorted file, it is slower than sort1. It means that sort1 is bubble sort and sort3 is selection sort.

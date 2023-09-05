@@ -1,0 +1,33 @@
+prompt user for an amount of change
+use get_float
+accept only non-negative inputs
+if not re-prompt
+if(input is dollar)
+multiply dollars by 100
+be sure to round cents to nearest penny.
+
+computing coins
+use the largest coins possible
+keep track of remaing change owed
+keeping track of how many coins used
+print the number of coins
+
+
+
+
+
+input]
+ask the user how much change is owed
+-using get_float,:
+-without dollar sign
+(ex) $9 -> input will be 9 or 9.00)
+-not too large for float
+-non-negative value
+if not) re prompt the user
+
+greedy algorithm)
+-if denominator and numverator are both integer -> one of them should be casted into float
+
+
+rint the minimum number of coins with which that change can be made
+(using printf, integer followed by \n)

@@ -1,0 +1,12 @@
+            sort1   sort2   sort3
+random5000  0.099   0.011   0.045
+random10000 0.579   0.017   0.287
+random50000 24.861  5.863   11.980
+
+reversed5000
+reversed10000
+reversed5000021.669 3.844   9.178
+
+sorted5000
+sorted10000
+sorted50000 6.517   4.409   13.097

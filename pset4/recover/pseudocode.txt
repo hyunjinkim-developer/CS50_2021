@@ -1,0 +1,14 @@
+Get input of memory card
+Open memeory card and image file (that JPEG images will be stored)
+Repeat: Read memory card to EOF(End Of File)
+    Read every 4B from start
+    If 4byte is indicator of JPEG
+        Reapeat Read 512B(yte)
+            If start of a new JPEG
+                open new image file, read and write
+            Else
+                keep read and write in current JPEG file
+    Else
+        keep read next 4B
+Close memory card file and ouput image file
+        

@@ -1,0 +1,11 @@
+prompt for input
+using get_int() //get only integer
+check input is in range
+
+Building pyramid
+print space into dot(do not need to print right side of second pyramid)
+change dot to space
+-print spaces
+-print left hashes
+-print gap
+-print right hashes

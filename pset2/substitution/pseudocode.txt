@@ -1,0 +1,16 @@
+*get key from the very beginning of program
+    *if program does not a single command-line argument
+        *print error message "Usage: ./substitution key\n"/ return 1 in main function/
+    *program must accept a single command-line argument(key)
+        *key should contain 26 character 
+            *if not print error message "Key must contain 26 characters.\n"/ return 1 in main function/
+        *key contains each letter exactly once
+            *if not print error message "Key must contain each letter exactly once.\n"
+        *key is not case sensitive
+*get plaintext from user "plaintext:  "
+    *using get_string()
+*convert palintext to ciphertext
+    *case-sensitive
+    *non-alphabetical characters should be not changed
+*print ciphertext "ciphertext: (ciphertext)\n"
+    *return 0 from main function

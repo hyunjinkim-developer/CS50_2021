@@ -1,0 +1,4 @@
+get creditcard number from user using get_long()
+findout company of the creditcard(AMEX:start34/37/ && 15digit, MASTERCARD:51/52/53/54/55 && 16digit, VISA:4/ && 13digit/16digit/, INVALID)
+check whether if this number is vaild using checksum
+print creditcard company or invalid  with \n
